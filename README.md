@@ -48,7 +48,7 @@ To use this library in your project manually you may:
 
 Create an `EriaitsevEvent` by passing a dictionary with the desired attributes to be tracked. 
 
-Call `track(params:)` with the event to track it. 
+Call `track(event:)` with the event to track it. 
 
 ```swift
 let params = ["name": "bob"]
